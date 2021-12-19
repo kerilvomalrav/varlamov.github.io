@@ -1,0 +1,847 @@
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	padding-bottom: 30px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Courier New, Courier, monospace
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    color: white;
+}
+
+.logoimg {
+    float: left;
+}
+
+.logotxt {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.windowImg {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: inset 0 0 10px black;
+    background: no-repeat url("Media/1.png") 0 -50px;
+    background-size: 100%;
+}
+
+
+.title1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+}
+
+.BG2txt {
+    padding: 40px;
+    width: 700px;
+    height: 5%;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    font-size: 32px;
+    color: black;
+    border-radius: 20px;
+}
+
+.MenuBtnVip {
+    color: black;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    transition: 0.2s;
+    overflow: hidden;
+    height: 0;
+    top: 100%;
+    width: 1903px;
+}
+
+.MenuBtnVip p {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0;
+    color:black;
+}
+
+.txtslider:hover .MenuBtnVip {
+    height: 200px;
+    color: black;
+}
+
+.blockMenuBtn {
+    padding: 10px ;
+}
+
+.blockMenu1 {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+}
+
+.txtslider {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.block0 {
+    padding: 20px 20%;
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.comment {
+    margin: 10px;
+    padding: 10px 10%;
+    font-size: 20px;
+    color: white;
+}
+
+.comment .name {
+    font-size: 24px;
+    color: white;
+}
+
+.comment .name img {
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.block1 {
+    padding: 20px;
+    margin: 50px 0;
+}
+
+.gallery1 {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:rgb(0, 0, 0);
+}
+
+.gallery2 {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:rgb(0, 0, 0);
+}
+
+.img2 {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+
+.img2 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.img1 {
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.img1 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.9s;
+}
+
+.img1:hover img{
+    transform: rotateY(360deg);
+}
+
+.btn1 {
+    background-color: rgb(190, 124, 88);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: rgb(255, 228, 210);
+}
+
+.topbutton {
+    width:60px;
+    height:60px;
+    border:2px solid #ccc;
+    background: white url(https://media.giphy.com/media/bly80fXqiKVQ1Lk0cY/giphy.gif) no-repeat 50% 40%;
+    background-size: 100px;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    cursor:pointer;
+    color:#333;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+
+.Radio1 {
+	display: none;
+}
+
+.Btn1 {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	margin: 0 3px;
+	border-radius: 50%;
+	border: 5px solid rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
+}
+
+.Btn1:hover {
+	background-color: white;
+}
+
+.BtnRad1 {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	margin: 0 3px;
+	border-radius: 50%;
+	border: 5px solid rgb(190, 124, 88);
+    background-color: rgb(190, 124, 88);
+}
+
+#Rad1:checked ~ .BtnGroup1 .LabelRad1 {
+    background-color: white;
+}
+
+#Rad2:checked ~ .BtnGroup1 .LabelRad2 {
+    background-color: white;
+}
+
+#Rad3:checked ~ .BtnGroup1 .LabelRad3 {
+    background-color: white;
+}
+.BtnGroup1 {
+    text-align: center;
+    width: 100%;
+}
+
+.Window1 {
+	height: 200px;
+	margin-top: 20px;
+	margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	padding: 0 0 0 0;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.Window1 .comment {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	left: 0;
+	transition: 0.5s;
+}
+
+#Rad1:checked ~ .Window1 div:not([id="img1"]),
+#Rad2:checked ~ .Window1 div:not([id="img2"]),
+#Rad3:checked ~ .Window1 div:not([id="img3"]) {
+	opacity: 0;
+}
+
+.block2 {
+	margin: 80px;
+	padding: 0px;
+	background-color: white;
+	text-align: center;
+}
+
+.Bttn1 {
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 3px;
+	background-color: silver;
+	padding: 10px;
+	border-radius: 10px;
+    color:black;
+}
+
+.Bttn1:hover {
+	background-color: rgb(230, 230, 230);
+}
+
+.Window2 {
+    position: relative;
+	width: 900px;
+	height: 600px;
+	margin-top: 30px;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 0;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 30px;
+}
+
+.Window2 .imgBlock {
+	border-radius: 20px;
+	font-size: 30px;
+	text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgBlock .botImgBlock {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 0;
+    width: 100%;
+    color: white;
+    transition: 0.2s;
+}
+
+.img-wrap {
+    position: relative;
+}
+  
+.img-wrap b {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.Window2 .imgBlock img{
+    object-fit: cover;
+    width: 300px;
+	height: 300px;
+    transition: 0.5s;
+}
+
+.Window2 .imgBlock:hover img{
+    transform: scale(1.3);
+}
+
+.Window2 .imgBlock:hover .botImgBlock{
+    height: 50px;
+}
+
+#Color1:checked ~ .Window2 .imgBlock:not(.boy),
+#Color2:checked ~ .Window2 .imgBlock:not(.girl),
+#Color3:checked ~ .Window2 .imgBlock:not(.child) {
+	display: none;
+}
+
+.ul3 {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.ul3 li {
+	display: inline-block;
+	cursor: pointer;
+	transition: 0.2s;
+	margin: 30px;
+	text-align: justify;
+	width: 300px;
+
+}
+
+.ul3 li img {
+	width: 100px;
+	transition: 0.5s;
+}
+
+.ul3 .imgLI1:hover img {
+	transform: rotateZ(360deg) scale(1.1);
+}
+
+.ul3 .imgLI2:hover img {
+	transform: rotateY(360deg) scale(1.1);
+}
+
+.ul3 .imgLI3:hover img {
+	transform: rotateX(360deg) scale(1.1);
+}
+
+.block3 {
+    padding: 20px 20%;
+    margin: 10px 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    color: black;
+}
+
+.block4 {
+    padding: 20px 20%;
+    background: no-repeat url("Media/1.png") 0 -50px;
+    background-size: 100%;
+    box-shadow: inset 0 0 10px black;
+    font-size: 20px;
+    color: black;
+}
+
+.miniblockF {
+	float: right;
+	margin: 5px;
+	padding: 15px;
+	background-size: 200px;
+	border-radius: 10px;
+	width: 40%;
+    color:white;
+}
+
+.inp1 {
+	width: 100%;
+	padding: 5px;
+	border-radius: 5px;
+    font-size: 20px;
+}
+
+.inp2 {
+	width: 100%;
+	padding: 50px 0px;
+	border-radius: 5px;
+    font-size: 20px;
+}
+
+.inp3 {
+	width: 100%;
+	padding: 5px 0px;
+	border-radius: 5px;
+    font-size: 20px;
+}
+
+.multiblock0 {
+	position: relative;
+	list-style: none;
+	text-align: left;
+	padding: 0;
+	width: 100%;
+}
+
+.multiblock0 li {
+	display: inline-block;
+	padding: 0 20px 0 0;
+}
+
+.miniblock1 li {
+	display: inline-block;
+	padding: 15px;
+	transition: 0.1s;
+	margin: 5px;
+	width: 100%;
+	background-size: 200px;
+	border-radius: 10px;
+    color:white;
+}
+
+.miniblock1 li .inset1 {
+	background-size: 90px;
+	height: 750px;
+	padding: 10px;
+}
+
+.miniblock1 li  img {
+	float: left;
+	margin: 0 10px 0 0;
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	border-radius: 5px;
+	object-fit: cover;
+}
+
+.net {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	width: 97%;
+}
+
+.da {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	width: 55%;
+}
+
+.btn2 {
+    background-color: rgb(190, 124, 88);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn2:hover {
+    background-color: rgb(255, 228, 210);
+}
+
+.comments {
+	position: relative;
+	list-style: none;
+	padding: 0;
+}
+
+.comments p {
+	color: gray;
+}
+
+.comments li {
+	display: inline-block;
+	padding: 15px;
+	margin: 5px;
+	width: 100%;
+}
+
+/* Убираем радио из виду */
+.Radio3 {
+	display: none;
+}
+
+/* Стиль кнопочек вместо радио */
+.Btn3 {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	margin: 0 3px;
+	border-radius: 50%;
+	border: 5px solid rgb(190, 124, 88);
+    background-color: rgb(190, 124, 88);
+}
+
+.Btn3:hover {
+	background-color: white;
+}
+
+.block5 {
+    padding: 20px 20%;
+    margin: 10px 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    color: black;
+    height: 560px;
+    text-align: center;
+}
+
+
+#Rad4:checked ~ .BtnGroup3 .LabelRad4 {
+    background-color: white;
+}
+
+#Rad5:checked ~ .BtnGroup3 .LabelRad5 {
+    background-color: white;
+}
+
+#Rad6:checked ~ .BtnGroup3 .LabelRad6 {
+    background-color: white;
+}
+
+#Rad7:checked ~ .BtnGroup3 .LabelRad7 {
+    background-color: white;
+}
+.BtnGroup3 {
+    text-align: center;
+    width: 100%;
+}
+
+.comment1 {
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+.comment1 p {
+    width: 95%;
+}
+
+.comment1 .name1 {
+    font-size: 40px;
+    color: black;
+}
+
+.comment1 .name1 img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    float: left;
+    border-radius: 20px;
+    margin-right: 30px;
+    
+}
+
+.Window3 {
+	height: 400px;
+	margin-top: 20px;
+	margin-left: auto;
+    margin-right: auto;
+	position: relative;
+    left: 150px;
+    overflow: hidden;
+}
+
+.Window3 .comment1 {
+    text-align: justify;
+	position: absolute;
+	width: 80%;
+	height: 100%;
+	object-fit: cover;
+	left: 0;
+	transition: 0.5s;
+}
+
+#Rad4:checked ~ .Window3 div:not([id="img4"]),
+#Rad5:checked ~ .Window3 div:not([id="img5"]),
+#Rad6:checked ~ .Window3 div:not([id="img6"]),
+#Rad7:checked ~ .Window3 div:not([id="img7"]) {
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*    RESET
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+a.close {
+    background-color: rgb(213, 187, 172);;
+    border-radius: 50%;
+    color: rgb(255,255,255);
+    display: block;
+    font-size: .8em;
+    padding: .2em .5em;
+    position: absolute;
+    top: 1.25rem;
+    transition: all 400ms ease;
+    right: 1.25rem;
+}
+
+    a.close:hover {
+        background-color: rgb(190, 124, 88);
+        cursor: pointer;
+    }
+
+/*
+*    Панель входа
+*/
+div.overlay {
+    background-color: rgba(0,0,0,.25);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+    div.overlay > div.login-wrapper {
+        align-self: center;
+        background-color: rgba(0,0,0,.25);
+        border-radius: 2px;
+        padding: 6px;
+        width: 1000px;
+    }
+
+        div.overlay > div.login-wrapper > div.login-content {
+            background-color: rgb(255,255,255);
+            border-radius: 2px;
+            padding: 24px;    
+            position: relative;
+        }
+
+            div.overlay > div.login-wrapper > div.login-content > h3 {
+                color: rgb(0,0,0);
+                font-size: 1.8em;
+                margin: 0 0 1.25em;
+                padding: 0;
+            }
+/*
+*    Форма
+*/
+form label {
+    color: rgb(0,0,0);
+    display: block;
+    font-size: 1.25em;
+    margin: .75em 0;    
+}
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        background-color: rgb(255,255,255);
+        border: 1px solid rgb( 186, 186, 186 );
+        border-radius: 1px;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+        display: block;
+        font-size: .65em;
+        margin: 6px 0 12px 0;
+        padding: .8em .55em;    
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+        transition: all 400ms ease;
+        width: 90%;
+    }
+
+    form input[type="text"]:focus,
+    form input[type="email"]:focus,
+    form textarea:focus,
+    form select:focus { 
+        border-color: #4195fc;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px #4195fc;
+    }
+
+        form input[type="text"]:invalid:focus,
+        form input[type="email"]:invalid:focus,
+        form textarea:invalid:focus,
+        form select:invalid:focus { 
+            border-color: rgb(248,66,66);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgb(248,66,66);
+        }
+
+form button {
+    background-color: rgb(190, 124, 88);
+    border: 1px solid rgba(0,0,0,.1);
+    color: rgb(255,255,255);
+    font-size: .85em;
+    padding: .55em .9em;
+    transition: all 400ms ease;    
+}
+
+    form button:hover {
+        background-color: rgb(213, 187, 172);
+        cursor: pointer;
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+#button {
+  transition: opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+}
+#button::after {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
